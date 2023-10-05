@@ -1,0 +1,54 @@
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .navbar{
+            height: 5vh;
+            background-color: rgb(241, 117, 117);
+            border: 1px solid black;
+            border-radius: 2px;
+            margin: 10px;
+        }
+        .links{
+            float: right;
+            display: inline-block;
+            border-radius: 5px;
+            padding-right: 5px;
+            margin-right: 10px;
+        }
+        .product{
+
+            float: left;
+            display: inline-block;
+        }
+        .body{
+            display: inline-block;
+        }
+        #links2{
+            border: 1px solid black;
+            display: inline;
+            padding: 5px;
+            margin: 10px;
+            background-color: rgb(241, 117, 117);
+        }
+        #links2 a{
+            display: block;
+        }
+        #heading{
+            border: 1px solid black;
+            display: inline;
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(241, 117, 117);
+        }
+        #pic{
+            border: 1px solid black;
+            display: inline;
+            
+            margin: 5px;
+            background-color: rgb(241, 117, 117);
+        }
+        
+        
