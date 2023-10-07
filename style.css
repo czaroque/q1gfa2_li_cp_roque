@@ -1,7 +1,10 @@
-
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
         *{
             padding: 0px;
             margin: 0px;
+        }
+        body{
+            background-color: bisque;
         }
         
         .navbar{
@@ -9,46 +12,73 @@
             background-color: rgb(241, 117, 117);
             border: 1px solid black;
             border-radius: 2px;
-            margin: 10px;
+            margin: 5px;
+            padding: 5px;
+            font-family: 'Young Serif', serif;
         }
         .links{
             float: right;
-            display: inline-block;
             border-radius: 5px;
             padding-right: 5px;
-            margin-right: 10px;
+            padding-top: 5px;
+        }
+        
+        .links a{
+            color: white;
         }
         .product{
-
+            padding-top: 6px;
             float: left;
-            display: inline-block;
+            font-family: 'Young Serif', serif;
         }
-        .body{
-            display: inline-block;
+       .left{
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(241, 117, 117);
+        padding: 0px;
+        margin: 5px;
+        float: left;
+       }
+       .left a{
+        color: white;
+        font-size: small;
+        font-family: 'Young Serif', serif;
+       }
+       .mid{
+        width: 1350px;
+        border: 1px solid black;
+        background-color: rgb(241, 117, 117);
+        padding: 1px;
+        margin-left: 3.5px;
+        margin-right: 3.5px;
+        text-align: left;
+        display: inline-block;
+        float: center; }
+
+        .mid h1{
+            font-family: 'Young Serif', serif;
         }
-        #links2{
-            border: 1px solid black;
-            display: inline;
-            padding: 5px;
-            margin: 10px;
-            background-color: rgb(241, 117, 117);
-        }
-        #links2 a{
-            display: block;
-        }
-        #heading{
-            border: 1px solid black;
-            display: inline;
-            padding: 5px;
-            margin: 5px;
-            background-color: rgb(241, 117, 117);
-        }
-        #pic{
-            border: 1px solid black;
-            display: inline;
-            
-            margin: 5px;
-            background-color: rgb(241, 117, 117);
-        }
+        
+       .mid p{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .right{
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(241, 117, 117);
+        padding: 1px;
+        margin: 5px;
+        float: right;
+        width: 227px;
+        display: inline-block;
+       }
+       .right p{
+        color: white;
+        text-align: center;
+        font-family: 'Young Serif', serif;
+       }
+       
+
         
         
